@@ -1,5 +1,5 @@
 {
-  "name": "universitysearch-vue",
+  "name": "univ",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,13 +11,13 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
     "@vitejs/plugin-vue": "^5.2.1",
-    "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vue/eslint-config-prettier": "^10.1.0",
     "eslint": "^9.18.0",
     "eslint-plugin-vue": "^9.32.0",
